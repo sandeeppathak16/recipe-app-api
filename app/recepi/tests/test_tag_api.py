@@ -10,7 +10,7 @@ from core.models import Tag
 from recepi.serializers import TagSerializer
 
 
-TAGS_URL = reverse('recipe:tag-list')
+TAGS_URL = reverse('recepi:tag-list')
 
 
 class PublicTagsApiTests(TestCase):
